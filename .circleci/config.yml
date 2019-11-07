@@ -13,6 +13,7 @@ jobs:
 
     environment:
       - PYTHONPATH: /usr/lib/google-cloud-sdk/platform/google_appengine
+      - APPLICATION_ID: dev~brid-gy
 
     steps:
       - checkout
